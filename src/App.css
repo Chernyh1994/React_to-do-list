@@ -1,0 +1,53 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.block{
+  display: flex;
+  justify-content: row;
+}
+
+.nav{
+  width: 150px;
+  height: 100vh;
+  padding: 0px 20px 0px 20px;
+  background: #16a085;
+ 
+}
+
+.logo{
+  background-image: url(./component/img/logo.png);
+ 
+ 
+}
+
+.header_list{
+  padding: 0;
+  list-style: none
+
+}
+
+.header_list__item{
+  padding:6px 16px;
+}
+
+.header_list__item:hover{
+  border: 1px solid #fff;
+  border-radius: 15px;
+  padding:5px 15px;
+
+}
+
+.header_list__link{
+  font-family: OpenSans;
+  color:  #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  text-decoration: none;
+}
+
+

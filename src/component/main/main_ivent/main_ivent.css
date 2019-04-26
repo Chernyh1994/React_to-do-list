@@ -1,0 +1,56 @@
+.main_ivent{
+        width: 100%;
+        background:rgb(224, 190, 190);
+}
+
+.pragraf_ivent{
+        margin: 0 auto;
+        text-align: center;
+        padding: 60px;
+}
+
+.select_ivent{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10em;
+}
+
+.block_select{
+        width: 15em;
+        height: 15em;
+        border: 1px solid black;
+        
+}
+
+.buttons_select{
+        display: flex;
+        flex-direction: column;
+        width: 15em;
+        height: 15em;
+        align-items: center;
+}
+
+.buttons_block{
+        padding: 20px;
+
+}
+
+.button{
+        display: inline-block;
+        color: rgb(71, 67, 67);
+        font-weight: 700;
+        text-decoration: none;
+        user-select: none;
+        padding: .5em 2em;
+        outline: none;
+        border: 2px solid;
+        border-radius: 10px;
+        transition: 0.2s;
+        cursor: pointer; 
+}
+.button:hover{
+        color: rgb(32, 31, 31);  
+}
+.red:active { background: red; }
+.green:active { background: green; }
+.blue:active { background: blue; }
